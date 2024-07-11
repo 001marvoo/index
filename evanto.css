@@ -1,0 +1,332 @@
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 15px;
+    position: static;
+}
+
+.vato b {
+    color: rgb(131, 202, 131);
+}
+
+.vato a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+.bnow button {
+    padding: 6px 12px;
+    background-color: rgb(131, 202, 131);
+    color: white;
+}
+
+.bnow a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+.navvs {
+    width: 40%;
+}
+
+.mainav {
+    display: flex;
+    color: black;
+    background-color: white;
+    width: 100%;
+}
+
+.mainav button {
+    width: 50%;
+    height: 50%;
+    margin-left: 65%;
+    margin-top: 4.5%;
+    padding: 0px 20px;
+    background: #000000;
+    color: white;
+
+}
+
+.jev a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.jev {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    margin: 30px 100px;
+    width: 100%;
+
+}
+
+.navbar li {
+    padding: 0px 18px;
+    width: 100%;
+}
+
+.navbar button {
+    padding: 0px 12px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+
+.home ol {
+    list-style-type: none;
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+}
+
+.home {
+    display: flex;
+    width: 100%;
+    display: none;
+}
+
+.home div {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-right: 1px solid rgb(120, 166, 235);
+}
+
+.home a:hover {
+    color: white;
+    background: blue;
+    padding: 5px 10px;
+    transition: .2s padding, ease-in-out
+}
+
+.home h1 {
+    margin-bottom: 20px;
+    border: 1px solid rgb(166, 159, 235);
+    padding: 10px;
+}
+
+.homee:hover .home {
+    display: flex;
+    height: 50vh;
+    position: fixed;
+    width: 80%;
+    z-index: 1;
+    background-color: white;
+    line-height: 24px;
+}
+
+
+.nextdiv {
+    background-image: url(../why-choose-us-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+
+}
+
+.nextdiv h2 {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nextdiv b {
+    font-size: 40px;
+    display: inline;
+    font-family: fantasy;
+}
+
+.treediv {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.treediv div {
+    border: 1px solid rgb(250, 245, 245);
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.bold {
+    display: flex;
+    justify-content: center;
+}
+
+.bold mark {
+    background: blue;
+    color: black;
+}
+
+.triple {
+    display: flex;
+    justify-content: space-around;
+    ;
+    padding: 20px;
+    width: 100%;
+}
+
+.triple div {
+    margin: 10px 20px;
+    width: 100%;
+}
+
+.triple div img {
+    width: 100%;
+}
+
+.triple div img:hover {
+    transform: translatey(10px);
+}
+
+.triple div span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.nexttree {
+    display: flex;
+    justify-content: space-around;
+    ;
+    padding: 20px;
+    width: 100%;
+}
+
+.nexttree img {
+    width: 100%;
+}
+
+.nexttree div {
+    margin: 10px 20px;
+    width: 100%;
+}
+
+.nexttree div img:hover {
+    transform: translatey(10px);
+}
+
+.nexttree div span {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.topp {
+    font-size: 30px;
+    color: black;
+    text-decoration: dotted;
+    border: none;
+}
+
+.topp button {
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+section {
+    /* background-color:; */
+    display: block;
+    align-self: center;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width :320px) {
+    .navvs {
+        display: none;
+    }
+
+    .all {
+        width: 100%;
+    }
+
+    .all div {
+        display: block;
+    }
+
+    .triple div {
+        margin: 5px 0px;
+    }
+
+    .nextdiv h2 {
+        font-size: 30px;
+        display: inline-block;
+        color: rgb(58, 57, 56);
+    }
+
+    .treediv {
+        display: inline;
+        padding: 0px;
+    }
+
+    .treediv div {
+        border: none;
+        margin: 5px 0px;
+        width: 100%;
+    }
+
+    .nexttree div {
+        margin: 5px 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .navvs {
+        display: none;
+    }
+
+    .nextdiv h2 {
+        font-size: 25px;
+        color: rgb(17, 78, 58);
+    }
+
+    .treediv {
+        display: block;
+    }
+
+    .treediv div {
+        border: none;
+    }
+
+    .all div {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+}

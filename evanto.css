@@ -146,7 +146,7 @@ a {
 
 
 .nextdiv {
-    background-image: url(../why-choose-us-img.jpg);
+    background-image: url(./why-choose-us-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -269,15 +269,11 @@ section {
 @media only screen and (max-width :320px) {
     .navvs {
         display: none;
-    }
-
-    .all {
-        width: 100%;
-    }
-
+    } 
+    
     .all div {
         display: block;
-    }
+    } 
 
     .triple div {
         margin: 5px 0px;
@@ -290,19 +286,20 @@ section {
     }
 
     .treediv {
-        display: inline;
+        display: block;
         padding: 0px;
     }
 
     .treediv div {
         border: none;
-        margin: 5px 0px;
+        /* margin: 5px 0px; */
         width: 100%;
     }
 
     .nexttree div {
         margin: 5px 0px;
     }
+   
 }
 
 @media only screen and (max-width:600px) {
@@ -321,12 +318,30 @@ section {
 
     .treediv div {
         border: none;
+        width: 100%;
+    }
+    .all{
+        width: 100%;
     }
 
     .all div {
         display: block;
-        width: 100%;
-        margin: auto;
+        width: 88%;
     }
-
+    .all div img{
+        width: 100%;
+    }
+    section{
+        display: inline-flex;
+        color: rgb(23, 34, 138);
+    }
+    .anchor{
+        display:flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+        font-size:30px
+    }
 }
+
+

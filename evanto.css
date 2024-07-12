@@ -1,4 +1,4 @@
-{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -175,7 +175,7 @@ a {
 }
 
 .treediv div {
-    border: 1px solid rgb(250, 245, 245);
+    /* border: 1px solid rgb(250, 245, 245); */
     margin: 10px 0px;
     width: 100%;
 }
@@ -266,7 +266,7 @@ section {
 }
 
 
-@media only screen and (max-width :320px) {
+@media only screen and (max-width :600px) {
     .navvs {
         display: none;
     } 
@@ -288,6 +288,7 @@ section {
     .treediv {
         display: block;
         padding: 0px;
+        overflow: hidden;
     }
 
     .treediv div {
@@ -298,6 +299,9 @@ section {
 
     .nexttree div {
         margin: 5px 0px;
+    }
+    .all{
+        overflow: hidden;
     }
    
 }

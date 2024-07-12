@@ -192,9 +192,9 @@ a {
 
 .triple {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     ;
-    padding: 20px;
+    /* padding: 20px; */
     width: 100%;
 }
 
@@ -220,9 +220,9 @@ a {
 
 .nexttree {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     ;
-    padding: 20px;
+    /* padding: 20px; */
     width: 100%;
 }
 
@@ -292,7 +292,7 @@ section {
 
     .treediv div {
         border: none;
-        /* margin: 5px 0px; */
+        margin: 5px 0px;
         width: 100%;
     }
 
@@ -326,7 +326,7 @@ section {
 
     .all div {
         display: block;
-        width: 88%;
+        width: 100%;
     }
     .all div img{
         width: 100%;
@@ -343,5 +343,3 @@ section {
         font-size:30px
     }
 }
-
-

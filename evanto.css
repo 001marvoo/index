@@ -255,7 +255,8 @@ a {
 
 .topp button {
     padding: 0px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-family:
 }
 
 section {
@@ -267,6 +268,10 @@ section {
 
 
 @media only screen and (max-width :600px) {
+    body{
+        margin:0px 20px;
+    }
+    
     .navvs {
         display: none;
     } 
@@ -307,6 +312,11 @@ section {
 }
 
 @media only screen and (max-width:600px) {
+   body{
+    margin: 0px 20px;
+   }
+   
+   
     .navvs {
         display: none;
     }
